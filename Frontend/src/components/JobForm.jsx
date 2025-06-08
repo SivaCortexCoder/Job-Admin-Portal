@@ -165,13 +165,13 @@ const JobForm = ({ closeForm, handleData, handleSubmit }) => {
         <div className='flex justify-between gap-3 pt-2'>
           <button
             type='button'
-            className='font-medium flex items-center gap-2 rounded-lg px-1.5 py-2 cursor-pointer border-2 border-black hover:bg-gray-50 transition-colors text-sm'
+            className='font-medium flex items-center gap-2 rounded-lg px-1.5 py-2 md:px-6 cursor-pointer border-2 border-black hover:bg-gray-50 transition-colors text-sm'
           >
             Save Draft <img src={forward} className='w-3 rotate-90' alt='' />
           </button>
           <button
             type='submit'
-            className='font-medium flex items-center gap-2 bg-[#00aaff] cursor-pointer rounded-lg px-1.5 py-2 text-white hover:bg-[#0099ee] transition-colors text-sm'
+            className='font-medium flex items-center gap-2 bg-[#00aaff] cursor-pointer rounded-lg px-1.5 py-2 md:px-6 text-white hover:bg-[#0099ee] transition-colors text-sm'
           >
             Publish <img src={forward1} className='w-3' alt='' />
           </button>
