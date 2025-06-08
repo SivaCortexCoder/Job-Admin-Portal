@@ -7,7 +7,7 @@ import { FiLayers } from 'react-icons/fi'
 
 const JobCard = ({logo,title,exprience,type,salary,desc,desc1,date,minSalary,maxSalary}) => {
   return (
-    <div className='card-shadow rounded-xl bg-white flex flex-col justify-between gap-2 px-6 py-4 space-y-3'>
+    <div className='card-shadow rounded-xl bg-white flex flex-col justify-between gap-2 px-6 py-4 space-y-3 overflow-hidden w-full max-w-full'>
         <div className='flex justify-between'>
             <div className="bg-gradient-to-t from-gray-100 to-white w-22 h-20 border-2 border-white flex justify-center items-center rounded-2xl logo-shadow">
                 <img src={logo} alt="logo" className="w-16" />
