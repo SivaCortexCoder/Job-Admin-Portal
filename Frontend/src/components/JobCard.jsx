@@ -10,7 +10,7 @@ const JobCard = ({logo,title,exprience,type,salary,desc,desc1,date,minSalary,max
     <div className='card-shadow rounded-xl bg-white flex flex-col justify-between gap-2 px-6 py-4 space-y-3'>
         <div className='flex justify-between'>
             <div className="bg-gradient-to-t from-gray-100 to-white w-22 h-20 border-2 border-white flex justify-center items-center rounded-2xl logo-shadow">
-                <img src={logo} alt="amazon logo" className="w-16" />
+                <img src={logo} alt="logo" className="w-16" />
             </div>
             <p className='bg-[#b0d9ff] font-medium h-fit px-4 py-2 rounded-xl'>{date ? date : "24h Ago"}</p>
         </div>
@@ -34,9 +34,9 @@ const JobCard = ({logo,title,exprience,type,salary,desc,desc1,date,minSalary,max
         </div>
 
        <ul className='list-disc pl-2 text-[#686868] font-medium text-sm text-wrap'>
-       <li className='text-balance text-ellipsis'>{desc}</li>
+       <li className='text-balance break-words'>{desc}</li>
        {
-        desc1 &&<li>{desc1}</li>
+        desc1 &&<li className='break-words'>{desc1}</li>
        }
        
        </ul>
