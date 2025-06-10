@@ -1,6 +1,9 @@
-import React from 'react'
-import { HiOutlineSearch,HiOutlineLocationMarker,HiOutlineUser } from 'react-icons/hi'
+// import React from 'react'
+// import { HiOutlineSearch,HiOutlineLocationMarker,HiOutlineUser } from 'react-icons/hi'
 import TwoWaySlider from './Slider'
+import searchlogo from '../assets/images/search.png' 
+import locationlogo from '../assets/images/locationlogo.png' 
+import jobtypelogo from '../assets/images/jobtypelogo.png'
 
 const FilterSection = ({search,handleJobTypeSearch,handleLocationSearch}) => {
   return (
@@ -8,7 +11,8 @@ const FilterSection = ({search,handleJobTypeSearch,handleLocationSearch}) => {
       px-8 py-6 space-x-6 w-full filter-shadow'>
 
         <div className='flex items-center space-x-2   flex-1 border border-gray-300 p-2 rounded-lg lg:border-none '>
-            <span className='text-2xl'><HiOutlineSearch /></span>
+            {/* <span className='text-2xl'><HiOutlineSearch /></span> */}
+            <img src={searchlogo} className='w-5' alt="" />
             <input
              type="text" name="jobtitle" id=""
              onChange={search}
@@ -19,7 +23,8 @@ const FilterSection = ({search,handleJobTypeSearch,handleLocationSearch}) => {
     <div className="hidden lg:block h-13 w-[2px]  bg-gray-200" />
 
         <div className='flex items-center space-x-2 flex-1 border border-gray-300  rounded-lg p-2 lg:border-none '>
-            <span className='text-2xl'><HiOutlineLocationMarker/></span>
+            {/* <span className='text-2xl'><HiOutlineLocationMarker/></span> */}
+            <img src={locationlogo} className='w-6' alt="" />
             <select className="outline-none pl-3 w-full placeholder-[#686868]" onChange={handleLocationSearch}>
                 <option>Preferred Location</option>
                 <option>Bangalore</option>
@@ -31,7 +36,8 @@ const FilterSection = ({search,handleJobTypeSearch,handleLocationSearch}) => {
     <div className="hidden lg:block h-13 w-[2px] bg-gray-200" />
 
         <div className='flex items-center space-x-2 flex-1 border border-gray-300  rounded-lg p-2 lg:border-none'>
-            <span className='text-2xl'><HiOutlineUser/></span>
+            {/* <span className='text-2xl'><HiOutlineUser/></span> */}
+            <img src={jobtypelogo} className='w-6' alt="" />
             <select className="outline-none pl-3 w-full placeholder-[#686868]" onChange={handleJobTypeSearch}>
                 <option>Job type</option>
                 <option>Full-time</option>

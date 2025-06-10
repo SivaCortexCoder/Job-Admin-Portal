@@ -8,7 +8,7 @@ const jobsData = [
     type: 'Onsite',
     salary: '12LPA',
     jobDescription: "A user-Friendly interface lets you browse stunning photos and videos",
-    jobDescription1: "Filter destinations based on interests and travel style, and create"
+    jobDescription1: "Filter destinations based on interests and travel style, and create personalized"
   },
     {
     id: 2,
@@ -18,7 +18,7 @@ const jobsData = [
     type: 'Onsite',
     salary: '12LPA',
    jobDescription: "A user-Friendly interface lets you browse stunning photos and videos",
-    jobDescription1: "Filter destinations based on interests and travel style, and create"
+    jobDescription1: "Filter destinations based on interests and travel style, and create personalized"
   },
     {
     id: 3,
@@ -28,7 +28,7 @@ const jobsData = [
     type: 'Onsite',
     salary: '12LPA',
     jobDescription: "A user-Friendly interface lets you browse stunning photos and videos",
-    jobDescription1: "Filter destinations based on interests and travel style, and create"
+    jobDescription1: "Filter destinations based on interests and travel style, and create personalized"
   },
     {
     id: 4,
@@ -38,7 +38,7 @@ const jobsData = [
     type: 'Onsite',
     salary: '12LPA',
     jobDescription: "A user-Friendly interface lets you browse stunning photos and videos",
-    jobDescription1: "Filter destinations based on interests and travel style, and create"
+    jobDescription1: "Filter destinations based on interests and travel style, and create personalized"
   },
     {
     id: 5,
@@ -48,7 +48,7 @@ const jobsData = [
     type: 'Onsite',
     salary: '12LPA',
      jobDescription: "A user-Friendly interface lets you browse stunning photos and videos",
-    jobDescription1: "Filter destinations based on interests and travel style, and create"
+    jobDescription1: "Filter destinations based on interests and travel style, and create personalized"
   },
     {
     id: 6,
@@ -58,7 +58,7 @@ const jobsData = [
     type: 'Onsite',
     salary: '12LPA',
      jobDescription: "A user-Friendly interface lets you browse stunning photos and videos",
-    jobDescription1: "Filter destinations based on interests and travel style, and create"
+    jobDescription1: "Filter destinations based on interests and travel style, and create personalized"
   },
     {
     id: 7,
@@ -68,7 +68,7 @@ const jobsData = [
     type: 'Onsite',
     salary: '12LPA',
     jobDescription: "A user-Friendly interface lets you browse stunning photos and videos",
-    jobDescription1: "Filter destinations based on interests and travel style, and create"
+    jobDescription1: "Filter destinations based on interests and travel style, and create personalized"
   },
     {
     id: 8,
@@ -78,7 +78,7 @@ const jobsData = [
     type: 'Onsite',
     salary: '12LPA',
      jobDescription: "A user-Friendly interface lets you browse stunning photos and videos",
-    jobDescription1: "Filter destinations based on interests and travel style, and create"
+    jobDescription1: "Filter destinations based on interests and travel style, and create personalized"
   },
 
 

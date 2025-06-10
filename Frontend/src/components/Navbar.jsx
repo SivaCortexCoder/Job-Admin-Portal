@@ -42,7 +42,7 @@ const Navbar = ({openForm}) => {
             font-medium px-4 py-2
             "
           >
-            Create Job
+            Create Jobs
           </button>
         </div>
         <div className="lg:hidden">

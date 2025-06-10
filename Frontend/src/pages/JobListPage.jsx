@@ -16,6 +16,7 @@ const [jobs,setJobs] = useState([])
   const [searchQuery,setSeachQuery] = useState("")
   const [jobTypeSearch,setJobTypeSearch] = useState("")
   const [jobMode, setJobMode] = useState("")
+  
 
 
   const[formData,setFormData] = useState({
@@ -114,8 +115,10 @@ useEffect(()=>{
 
 const filteredJobs = jobs.filter((jobItem)=>
   jobItem.jobTitle.toLowerCase().includes(searchQuery.toLowerCase()) && 
-  jobItem.type.toLowerCase().includes(jobTypeSearch.toLowerCase()) &&
-  jobItem.experience.toLowerCase().includes(jobMode.toLowerCase())
+(jobTypeSearch==="Preferred Location" || jobTypeSearch=="" ||jobItem.type.toLowerCase().includes(jobTypeSearch.toLowerCase()))&&
+(jobMode==="Job type" || jobMode==="" ||   jobItem.experience.toLowerCase().includes(jobMode.toLowerCase()) )
+
+
 
 
 )
@@ -128,7 +131,7 @@ if(isLoading){
     <div>
     {isOpen && (
   <div className="fixed inset-0 z-50 flex justify-center items-start sm:items-center bg-black/40 overflow-y-auto p-4">
-  <div className="bg-white p-6 rounded-xl max-w-2xl w-full">
+  <div className="bg-white p-6 rounded-xl max-w-3xl w-full">
       <JobForm closeForm={handleClose} handleData={handleData} handleSubmit={handleSubmit}   />
     </div>
   </div>
@@ -136,7 +139,7 @@ if(isLoading){
       
         <Navbar openForm = {handleOpen}/>
         <FilterSection search={search} handleJobTypeSearch={handleJobTypeSearch} handleLocationSearch={handleLocationSearch } />
-        <div className={filteredJobs.length==0 ? `flex justify-center items-center mt-20`:`max-w-[85rem] mx-auto my-10 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4`}>
+        <div className={filteredJobs.length==0 ? `flex justify-center items-center mt-20`:`max-w-[85rem] mx-auto my-10 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-4`}>
           {
             filteredJobs.length===0 ? <h1 className='font-semibold text-center text-3xl animate-pulse'>No Jobs Found...</h1>
 

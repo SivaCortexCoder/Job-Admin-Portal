@@ -12,13 +12,15 @@
 }
 
 .filter-shadow{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.005) 0px 4px 6px -2px;
+    box-shadow: rgba(31, 31, 31, 0.066) 0px 10px 15px -3px, rgba(0, 0, 0, 0.005) 0px 4px 6px -2px;
 }
 
 .card-shadow{
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  box-shadow: rgba(99, 99, 99, 0.077) 0px 2px 8px 0px;
 }
 
 .logo-shadow{
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
 }
+ 
