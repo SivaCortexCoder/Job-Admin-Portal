@@ -114,7 +114,7 @@ useEffect(()=>{
 },[])
 
 const filteredJobs = jobs.filter((jobItem)=>
-  jobItem.jobTitle.toLowerCase().includes(searchQuery.toLowerCase()) && 
+  jobItem.jobTitle.toLowerCase().trim().includes(searchQuery.toLowerCase().trim()) && 
 (jobTypeSearch==="Preferred Location" || jobTypeSearch=="" ||jobItem.type.toLowerCase().includes(jobTypeSearch.toLowerCase()))&&
 (jobMode==="Job type" || jobMode==="" ||   jobItem.experience.toLowerCase().includes(jobMode.toLowerCase()) )
 
