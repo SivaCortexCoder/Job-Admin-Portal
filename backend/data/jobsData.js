@@ -82,7 +82,7 @@ const jobsData = [
   },
     {
     id: 9,
-    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Tesla_lsyyoc.png', 
+    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Amazon_vnowh4.png', 
     jobTitle: 'React Developer (Contract)',
     experience: 'Contract',
     type: 'Hyderabad',
@@ -92,7 +92,7 @@ const jobsData = [
   },
     {
     id: 10,
-    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Tesla_lsyyoc.png', 
+    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289339/Swiggy_lrlii9.png', 
     jobTitle: 'Data Analyst Intern',
     experience: 'Internship',
     type: 'Chennai',
@@ -105,21 +105,63 @@ const jobsData = [
     jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Tesla_lsyyoc.png', 
     jobTitle: 'Node Js Developer',
     experience: 'Full-Time',
-    type: 'Onsite',
+    type: 'Banglore',
     salary: '35k-40k',
      jobDescription: "Develop scalable APIs and backend services. Flexible hours, ideal for developers with prior freelance experience.",
     jobDescription1: ""
   },
     {
     id: 12,
-    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Tesla_lsyyoc.png', 
-    jobTitle: 'Cloud Engineer',
-    experience: 'Part-time',
+    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Amazon_vnowh4.png', 
+    jobTitle: 'Software Engineer Intern',
+    experience: 'Hyderabad',
     type: 'Onsite',
-    salary: '12LPA',
+    salary: '30k-35k',
+     jobDescription: "Join the Amazon Software Development team as an intern and contribute to developing cutting-edge scalable solutions. Great learning opportunity with mentorship.",
+    jobDescription1: ""
+  },
+
+   {
+    id: 13,
+    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Amazon_vnowh4.png', 
+    jobTitle: 'Backend Developer (Contract)',
+    experience: 'Contract',
+    type: 'Hyderabad',
+    salary: '20k-30k',
+     jobDescription: "Responsible for maintaining and scaling backend services. Work with microservices architecture and cloud-native technologies.",
+    jobDescription1: ""
+  },
+    {
+    id: 14,
+    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289339/Swiggy_lrlii9.png', 
+    jobTitle: 'Frontend Developer',
+    experience: 'Full-Time',
+    type: 'Banglore',
+    salary: '30k-40k',
+     jobDescription: "Part-time position to enhance the UI/UX of Amazon internal tools. Good experience with React.js and Tailwind CSS is a must.",
+    jobDescription1: ""
+  },
+    {
+    id: 15,
+    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Tesla_lsyyoc.png', 
+    jobTitle: 'Junior Developer',
+    experience: 'Full-Time',
+    type: 'Banglore',
+    salary: '35k-40k',
+     jobDescription: "Entry-level role focusing on developing user-facing features and server-side logic. Work closely with design and backend teams.",
+    jobDescription1: ""
+  },
+    {
+    id: 16,
+    jobLogo: 'https://res.cloudinary.com/dvgux7v3x/image/upload/v1749289338/Amazon_vnowh4.png', 
+    jobTitle: 'Cloud Engineer',
+    experience: 'Chennai',
+    type: 'Onsite',
+    salary: '40k-45k',
      jobDescription: "Manage Azure infrastructure and deployment pipelines. Help scale microservices and ensure cloud security best practices.",
     jobDescription1: ""
   },
+
 
 
 ];
